@@ -12,10 +12,17 @@
 .wrapper-rahmen {
   background-color: #ffffff;
   border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   padding: 24px;
-  max-width: 1400px;
-  margin: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+  min-height: 100vh;
+  max-width: 1200px;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -257,7 +264,7 @@ button.btn-medium {
 
   </style>
 </head>
-<body>
+<body style="margin: 0; padding: 0;">
   <div class="wrapper-rahmen">
 <div class="print-wrapper">
 <header>
